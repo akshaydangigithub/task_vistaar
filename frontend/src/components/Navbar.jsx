@@ -5,12 +5,12 @@ const Navbar = () => {
   const navigate = useNavigate();
   const token = localStorage.getItem("userToken");
   return (
-    <nav className="flex bg-gray-200 items-center absolute w-full left-0 top-0 justify-between py-4 px-20">
-      <div className="flex items-center gap-16">
+    <nav className="flex bg-gray-200 items-center absolute w-full left-0 top-0 justify-between py-4 md:px-20 px-6">
+      <div className="flex items-center md:gap-16 gap-6">
         <Link to="/">
           <h1 className="text-xl font-bold">Logo</h1>
         </Link>
-        <div className="flex gap-16">
+        <div className="flex md:gap-16 gap-4">
           <Link
             to="/"
             className="relative w-fit after:h-[2px] after:w-0 after:bg-black after:absolute after:-bottom-1 after:left-0 after:transition-all after:duration-300 after:ease-in-out hover:after:w-full"

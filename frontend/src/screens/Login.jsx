@@ -49,7 +49,7 @@ const Login = () => {
 
       <form
         onSubmit={handleLogin}
-        className="shadow-sm shadow-black w-[35%] rounded-xl py-3 px-6 mt-10"
+        className="shadow-sm shadow-black md:w-[35%] w-[90%] rounded-xl py-3 px-6 mt-10"
       >
         <div className="mb-5">
           <label

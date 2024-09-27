@@ -41,7 +41,7 @@ const Register = () => {
 
       <form
         onSubmit={handleSubmit}
-        className="shadow-sm shadow-black rounded-xl py-3 px-6 mt-10 w-[35%]"
+        className="shadow-sm shadow-black rounded-xl py-3 px-6 mt-10 md:w-[35%] w-[90%] "
       >
         <div className="mb-5">
           <label
